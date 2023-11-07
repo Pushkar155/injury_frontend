@@ -1,0 +1,84 @@
+.card{
+    height: 18vh;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    transition: height 0.5s;
+    .card__navbar{
+        height: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .card_navbar_data{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            .icon{
+                color: rgb(210, 19, 19);
+            }
+        }
+        h6{
+            font-weight: 400;
+        }
+    }
+    .card__middle{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h4{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        button{
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            cursor: pointer;
+            // width: auto;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 10px;
+            border-radius: 40px;
+            border: 2px solid black;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            &:hover{
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                border: 2px solid black;
+            }
+        }
+    }
+    .card__lower{
+        h4{
+            font-size:  15px;
+            font-weight: 500;
+            color: rgb(198, 36, 36);
+        }
+        .card__lower_data{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            .injuries{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+                .icon{
+                    font-size: 20px;
+                    color: rgb(31, 33, 39);
+                }
+                span{
+                    font-size: 13px;
+                }
+            }
+    }
+}
+}

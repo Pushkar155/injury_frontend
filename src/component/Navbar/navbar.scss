@@ -1,0 +1,80 @@
+.navbar{
+    &.one{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    color: rgb(75, 72, 72);
+    border-bottom: 2px solid rgb(75, 72, 72);
+    .navbar_name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        .icon{
+            color: red;
+            font-size: 30px;
+        }
+    }
+    .navbar_back{
+        height: 3vh;
+        width: 3vh;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid rgb(75, 72, 72);
+        border-radius: 50%;
+        padding: 5px;
+        .icon{
+            font-size: 30px;
+        }
+    }
+    .icon{
+        font-size: 30px;
+    }
+
+
+    }
+    &.two{
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+        color: rgb(75, 72, 72);
+        border-bottom: 2px solid rgb(75, 72, 72);
+        .navbar_name{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            .icon{
+                color: red;
+                font-size: 30px;
+            }
+        }
+        .navbar_back{
+            height: 3vh;
+            width: 3vh;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid rgb(75, 72, 72);
+            border-radius: 50%;
+            padding: 5px;
+            .icon{
+                font-size: 30px;
+            }
+        }
+        .icon{
+            font-size: 30px;
+        }
+    
+    
+        }
+}
